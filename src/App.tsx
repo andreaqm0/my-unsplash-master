@@ -2,7 +2,7 @@ import './App.css'
 import { Image } from './models/image.model';
 import Content from './modules/Content/Content';
 import Header from './modules/Header/Header';
-import {useEffect, useState} from 'react'
+import {useState} from 'react'
 
 const App = () => {  
   const [images, setImages] = useState<Image[]>([])

@@ -3,7 +3,7 @@ interface props {
     errors : Array<string>
 }
 
-const ErrorAlert = ({errors} : any) => {
+const ErrorAlert = ({errors} : props) => {
   return (
     <>
     {
